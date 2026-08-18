@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>codev1od — Demo</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="codev1od">
+        <img src="assets/logo.svg" alt="codev1od logo" class="brand-logo">
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="bg-layer">
+        <div class="gradient-anim"></div>
+        <div class="blobs">
+          <div class="blob b1"></div>
+          <div class="blob b2"></div>
+          <div class="blob b3"></div>
+          <div class="blob b4"></div>
+        </div>
+      </div>
+
+      <div class="container hero-inner">
+        <h1 class="title">Beautiful interactive sites, crafted for the web.</h1>
+        <p class="subtitle">A small demo recreating the look & motion you requested — rebuilt from scratch with original code.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#work">See Work</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="scroll-hint">Scroll down ↓</div>
+    </section>
+
+    <section id="about" class="panel">
+      <div class="container">
+        <h2 class="panel-title reveal">About</h2>
+        <p class="reveal delay">This demo reproduces the hero animations, floating/background motion, and layout structure. Replace copy and assets as needed.</p>
+      </div>
+    </section>
+
+    <section id="features" class="panel alt">
+      <div class="container grid-3">
+        <article class="card reveal">
+          <h3>Animations</h3>
+          <p>Fluid gradient backgrounds, floating blobs, and cursor parallax effects.</p>
+        </article>
+        <article class="card reveal delay">
+          <h3>Responsive</h3>
+          <p>Works on desktop & mobile with responsive breakpoints and accessible controls.</p>
+        </article>
+        <article class="card reveal delay-lg">
+          <h3>Performance</h3>
+          <p>CSS-first animations with lightweight JS for interactivity — easy to extend.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="panel">
+      <div class="container">
+        <h2 class="panel-title reveal">Work</h2>
+        <div class="cards">
+          <div class="project reveal">
+            <div class="thumb" aria-hidden></div>
+            <h4>Project A</h4>
+            <p>Demo tile with hover motion and glow.</p>
+          </div>
+          <div class="project reveal delay">
+            <div class="thumb" aria-hidden></div>
+            <h4>Project B</h4>
+            <p>Demo tile with hover motion and glow.</p>
+          </div>
+          <div class="project reveal delay-lg">
+            <div class="thumb" aria-hidden></div>
+            <h4>Project C</h4>
+            <p>Demo tile with hover motion and glow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="panel alt">
+      <div class="container">
+        <h2 class="panel-title reveal">Contact</h2>
+        <p class="reveal delay">Want this deployed or adapted? I can push to a repo or zip it up for you.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <strong>codev1od</strong> — Demo site</small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
